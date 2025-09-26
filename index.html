@@ -1,0 +1,182 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Trukotazh — Байєр з Китаю</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Trukotazh</a>
+      <nav class="nav">
+        <a href="#products">Товари</a>
+        <a href="#how">Як це працює</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn-outline">Замовити</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Твій байєр з Китаю — купуй за фото, доставляємо всюди</h1>
+          <p class="lead">Без повернень. Лише реальні фото товарів перед відправкою. Прямі закупівлі з фабрик, персональна перевірка якості.</p>
+          <div class="hero-cta">
+            <a href="#products" class="btn-primary">Переглянути товари</a>
+            <a href="#contact" class="btn-ghost">Надіслати фото</a>
+          </div>
+          <ul class="hero-feats">
+            <li>📸 Реальні фото перед відправкою</li>
+            <li>🚚 Міжнародна доставка</li>
+            <li>🏭 Робота напряму з фабриками</li>
+          </ul>
+        </div>
+        <div class="hero-media">
+          <div class="hero-card">
+            <img src="assets/hero-1.jpg" alt="Приклад товару Trukotazh">
+            <div class="badge">Новинка</div>
+          </div>
+          <div class="hero-gallery">
+            <img src="assets/hero-2.jpg" alt="Товар 2">
+            <img src="assets/hero-3.jpg" alt="Товар 3">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="section container">
+      <h2 class="section-title">Актуальні товари</h2>
+      <p class="muted">Підбірка товарів, які вже в наявності або доступні для викупу.</p>
+
+      <div class="product-grid">
+        <!-- Product card template - duplicate and fill with real content -->
+        <article class="product">
+          <img src="assets/product-1.jpg" alt="Сукня — універсальний розмір">
+          <div class="product-body">
+            <h3 class="product-title">Сукня — універсальний розмір</h3>
+            <p class="product-meta">Довжина 112 см · Груди до 110 см</p>
+            <div class="product-bottom">
+              <span class="price">₴1,250</span>
+              <a class="btn-sm" href="#contact">Замовити</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product">
+          <img src="assets/product-2.jpg" alt="Кофта без утеплення">
+          <div class="product-body">
+            <h3 class="product-title">Кофта — Л/XL</h3>
+            <p class="product-meta">Тонка, без утеплення — ідеально для сезону</p>
+            <div class="product-bottom">
+              <span class="price">₴980</span>
+              <a class="btn-sm" href="#contact">Замовити</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product">
+          <img src="assets/product-3.jpg" alt="Сумка — складна форма">
+          <div class="product-body">
+            <h3 class="product-title">Сумка — обмежена кількість</h3>
+            <p class="product-meta">Ручна робота, перевірка перед відправкою</p>
+            <div class="product-bottom">
+              <span class="price">₴1,700</span>
+              <a class="btn-sm" href="#contact">Замовити</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Add more product cards as needed -->
+      </div>
+
+      <div class="center mt-24">
+        <a class="btn-outline" href="#">Показати ще</a>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="how" class="section how">
+      <div class="container">
+        <h2 class="section-title">Як це працює</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <h4>Надішліть фото або посилання</h4>
+            <p>Пришліть фото товару або посилання в форму чи в Direct.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <h4>Ми викуповуємо і перевіряємо</h4>
+            <p>Покупка з фабрики, ми фотографуємо товар перед відправкою.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <h4>Доставка і отримання</h4>
+            <p>Відправляємо вам, ви отримуєте — без повернень.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section container">
+      <h2 class="section-title">Часті питання</h2>
+      <div class="faq-grid">
+        <div class="qa">
+          <h4>Чи можна повернути товар?</h4>
+          <p>Повернення немає. Ми перевіряємо товар перед відправкою і фотографуємо його для вас.</p>
+        </div>
+        <div class="qa">
+          <h4>Скільки часу доставка?</h4>
+          <p>Зазвичай 10–25 робочих днів залежно від методу доставки. Можливі пришвидшені варіанти за запитом.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Order form -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Зробити запит</h2>
+        <p class="muted">Надішліть фото товару або посилання — ми оцінюємо і відповімо.</p>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <label>Ім'я<input type="text" name="name" placeholder="Ваше ім'я" required></label>
+            <label>Телефон або WhatsApp<input type="text" name="phone" placeholder="+380 67 000 0000" required></label>
+          </div>
+          <label>Посилання або опис<textarea name="message" rows="4" placeholder="Посилання або короткий опис" required></textarea></label>
+          <label>Прикріпити фото<input type="file" name="photo" accept="image/*"></label>
+          <div class="form-actions">
+            <button type="submit" class="btn-primary">Надіслати запит</button>
+            <a href="https://www.instagram.com/trukotazh/" class="btn-ghost" target="_blank" rel="noopener">Написати в Instagram</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Trukotazh</strong>
+        <p class="muted">Байєр з Китаю · Реальні фото · Доставка по всьому світу</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Політика конфіденційності</a>
+        <a href="#">Умови використання</a>
+      </div>
+    </div>
+    <div class="copyright">© 2025 Trukotazh. Усі права захищені.</div>
+  </footer>
+
+</body>
+</html>
+
